@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Simpelweb</title>
     <link rel="stylesheet" href="introduction.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="main-header">
@@ -19,9 +24,10 @@
                         HTML ▼
                 </a>
                 <div class="dropdown-content">
-                    <a href="" class="dropdown-link">Link 1</a>
-                    <a href="" class="dropdown-link">Link 2</a>
-                    <a href="" class="dropdown-link" id="linklast">Link 3</a>
+                    <a href="" class="dropdown-link">Hem</a>
+                    <a href="" class="dropdown-link">Introduktion</a>
+                    <a href="" class="dropdown-link">Grunder</a>
+                    <a href="" class="dropdown-link" id="linklast">Elements</a>
                 </div>
             </div>
             
@@ -53,19 +59,58 @@
         <div class="article-container">
             <div class="left-article">
                 <h1>HTML</h1>
-                <a href="" class="links">Link 1</a>
-                <a href="" class="links">Link 2</a>
-                <a href="" class="links">Link 3</a>
-                <a href="" class="links">Link 4</a>
+                <a href="" class="links homelink">HTML Information</a>
+                <a href="" class="links">HTML Introduktion</a>
+                <a href="" class="links">HTML Grunder</a>
+                <a href="" class="links">HTML Elements</a>
             </div>
             <div class="main-article">
-                <h1 class="">HTML INTRODUKTION</h1>
+                <h1 class="main-article-header">HTML INFORMATION</h1>
+                
+                <div class="button-container">
+                    <a href="index.html"><button class="next-button"> &#8592; Tillbaka</button></a>
+                    <a href=""><button class="next-button">Nästa &#8594; </button></a>
+                </div>
+
+                <div class="first-box">
+                    <div class="first-box-content">
+                        <p class="first-box-paragraph">HTML är standard märkningsspråket för hemsidor.</p>
+                        <p class="first-box-paragraph">Med hjälp av HTML så kan du skapa din egna hemsida.</p>
+                        <p class="first-box-paragraph">Grunden i HTML är lätt att lära sig - Men möjligheterna är oändliga!</p>
+                        <a href="">
+                            <div class="first-box-button">Titta på vår videoundervisning >></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="software-information">
+                    <h2 class="programvara">Programvara</h2>
+                    <p class="program-text">Vi på SimpelWeb rekommenderar "Visual Studio Code" att bli den programvara som du iallafall till en början kommer att koda i, och här följer några anledningar till detta:</p>
+                    <ul class="exempel-list">
+                        <li class="exempel-text">Vi på SimpelWeb använder oss av "Visual Studio Code", vilket kommer underlätta för er som följer sidan.</li>
+                        <li class="exempel-text">Programvaran är gratis att ladda ned.</li>
+                        <li class="exempel-text">"Visual Studio Code" används av många i branschen och har blivit en standardapplikation.</li>
+                    </ul>
+                    <a href="https://code.visualstudio.com/download" class="download-link">
+                        <div class="visual-download"> Ladda ned Visual Studio Code här!</div>
+                    </a>
+                </div>
+
             </div>
             <div class="right-article">
                 D
             </div>
         </div>
     </article>
+
+    <footer class="main-footer">
+        <div class="copyright">
+            ©SimpelWeb, 2021. Detta företag är ett registrerat varumärke som tillhör SimpelSites AB. Alla likheter med befintliga webbsidor är av ren slump.
+        </div>
+        <div class="contact">
+            Maila oss via: simplewebb@gmail.com
+        </div>
+    </footer>
     
 </body>
 </html>
