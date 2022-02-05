@@ -119,13 +119,22 @@
 .right-article{
     width: 17%;
 }
-.advertising-container{
+.smartCodeLink{
+    width: 100%;
+    align-items: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-}
-.advertisement{
     color: black;
-    background-color: cadetblue;
+    text-decoration: none;
+}
+.smartCodeIMG{
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.smartCodeHeader{
+    margin-top: 15px;
 }
 .main-article-header{
     padding: 50px 0px 0px 30px;
