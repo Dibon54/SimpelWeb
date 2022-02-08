@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simpelweb</title>
+    <link rel="stylesheet" href="htmlIntroduction.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="head-container">
+            
+            <a href="index.html">
+                <img src="resources/Small png.png" alt="" class="logo">
+            </a>
+            
+    
+            <div class="dropdown">
+                <a href="information.html" class="dropbtn">
+                        HTML ▼
+                </a>
+                <div class="dropdown-content">
+                    <a href="information.html" class="dropdown-link">Information</a>
+                    <a href="" class="dropdown-link">Introduktion</a>
+                    <a href="" class="dropdown-link">Grunder</a>
+                    <a href="" class="dropdown-link" id="linklast">Elements</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        CSS ▼
+                </a>
+                <div class="dropdown-content2">
+                    <a href="" class="dropdown-link">Information</a>
+                    <a href="" class="dropdown-link">Introduktion</a>
+                    <a href="" class="dropdown-link">Syntax</a>
+                    <a href="" class="dropdown-link" id="linklast">Selektorer</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        OM OSS
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        VIDEOS
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <article class="article">
+        <div class="article-container">
+            <div class="left-article">
+                <h1>HTML</h1>
+                <a href="information.html" class="links">HTML Information</a>
+                <a href="htmlIntroduction.html" class="links homelink">HTML Introduktion</a>
+                <a href="" class="links">HTML Grunder</a>
+                <a href="" class="links">HTML Elements</a>
+            </div>
+            <div class="main-article">
+                <h1 class="main-article-header">HTML INTRODUKTION</h1>
+                
+                <div class="button-container">
+                    <a href="information.html"><button class="next-button"> &#8592; Tillbaka</button></a>
+                    <a href="htmlIntroduction.html"><button class="next-button">Nästa &#8594; </button></a>
+                </div>
+
+
+                <div class="software-information">
+                    <h2 class="programvara">Hur kan ett simpelt HTML dokument se ut?</h2>
+                    <h2 class="program-text">Exempel på hur det kan se ut:</h2>
+                    <div class="html-exempel">
+                        <ul class="exempel-list">
+                            <li class="exempel-text" style="color:red"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">!DOCTYPE</span> html <span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">html</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">head</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">title</span><span class="tagcolor" style="color:mediumblue">></span>Rubrik<span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/title</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/head</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">body</span><span class="tagcolor" style="color:mediumblue">></span></li><br>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">h1</span><span class="tagcolor" style="color:mediumblue">></span>Min första rubrik<span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/h1</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">p</span><span class="tagcolor" style="color:mediumblue">></span>Min första paragraf<span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/p</span><span class="tagcolor" style="color:mediumblue">></span></li><br>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/body</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                            <li class="exempel-text"><span class="tagcolor" style="color:mediumblue"><</span><span style="color: brown;">/html</span><span class="tagcolor" style="color:mediumblue">></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="example-explained">
+                    <h2>Vad händer i exemplet?</h2>
+                    <ul>
+                        <li class="text-explained"><span>&lt; !DOCTYPE html></span> deklarerar att dokumentet är ett HTML5 dokument</li>
+                        <li class="text-explained"><span>&lt; html></span> elementet är rotelementet på en HTML-sida</li>
+                        <li class="text-explained"><span>&lt; head></span> elementet innehåller metainformation om HTML-sidan</li>
+                        <li class="text-explained"><span>&lt; title></span>anger en titel för HTML-sidan och visar namnet på sidans flik</li>
+                        <li class="text-explained"><span>&lt; body></span>definierar dokumentets kropp och är en behållare för allt synligt innehåll, såsom rubriker, bilder och stycken med mera.</li>
+                        <li class="text-explained"><span>&lt; h1></span>definierar en stor rubrik som visas på sidan</li>
+                        <li class="text-explained"><span>&lt; p></span>definierar ett stycke som syns på sidan</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right-article">
+                    <a class="smartCodeLink" href="https://www.youtube.com/channel/UCgWF-ljs8fXb8_BrGB2mGWw">
+                        <img class="smartCodeIMG"src="resources/SmartCode.jpg" alt="">
+                        <h2 class="smartCodeHeader">#SmartCode</h2>
+                    </a>
+            </div>
+        </div>
+    </article>
+
+    <footer class="main-footer">
+        <div class="copyright">
+            ©SimpelWeb, 2021. Detta företag är ett registrerat varumärke som tillhör SimpelSites AB. Alla likheter med befintliga webbsidor är av ren slump.
+        </div>
+        <div class="contact">
+            Maila oss via: simplewebb@gmail.com
+        </div>
+    </footer>
+    
+</body>
+</html>
