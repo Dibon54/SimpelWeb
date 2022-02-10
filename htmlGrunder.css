@@ -158,6 +158,19 @@
     cursor: pointer;
     background-color: rgb(151, 122, 112);
 }
+.text-explained{
+    color: red;
+    background-color: rgb(255, 199, 199);
+}
+.first-paragraph{
+    width: 95%;
+    margin: 20px;
+    padding: 10px 0px 10px 2px;
+    border-top: gray 1px solid;
+}
+.css-introduction{
+    border-bottom: gray 1px solid;
+}
 .first-box{
     width: 100%;
     background-color: rgb(255, 219, 158);
@@ -182,7 +195,7 @@
     text-decoration: none;
 }
 .software-information{
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
     background-color: rgb(216, 214, 214);
     padding: 0px 12px 12px 12px;
     border-radius: 4px;
@@ -196,10 +209,6 @@
 .exempel-text{
     list-style-type: none;
 }
-.programvara{
-    margin-top: 30px;
-    font-size:30px;
-}
 .program-text{
     margin-top: 20px;
 }
@@ -209,19 +218,14 @@
 .exempel-text{
     margin-top: 5px;
 }
-.example-explained{
-    margin: 20px 20px 40px 20px;
-    padding: 0px 12px 12px 12px;
-}
-.example-explained ul{
-    margin-left: 80px;
-}
-.text-explained{
-    margin-top: 4px;
-}
-.text-explained span{
-    color: red;
-    background-color: rgb(255, 199, 199);
+.visual-download{
+    background-color: rgb(182, 147, 134);
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 20px;
+    width: 40%;
+    border-radius: 4px;
+    display: inline-block;
 }
 .main-footer{
     display: flex;

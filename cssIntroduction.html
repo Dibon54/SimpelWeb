@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simpelweb</title>
+    <link rel="stylesheet" href="htmlGrunder.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="resources/Storare.png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="head-container">
+            
+            <a href="index.html">
+                <img src="resources/Small png.png" alt="" class="logo">
+            </a>
+            
+    
+            <div class="dropdown">
+                <a href="information.html" class="dropbtn">
+                        HTML ▼
+                </a>
+                <div class="dropdown-content">
+                    <a href="information.html" class="dropdown-link">Information</a>
+                    <a href="htmlIntroduction.html" class="dropdown-link">Introduktion</a>
+                    <a href="htmlGrunder.html" class="dropdown-link">Grunder</a>
+                    <a href="exempelsida.html" class="dropdown-link" id="linklast">Elements</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        CSS ▼
+                </a>
+                <div class="dropdown-content2">
+                    <a href="cssInformation.html" class="dropdown-link">Information</a>
+                    <a href="cssIntroduction.html" class="dropdown-link">Introduktion</a>
+                    <a href="cssExempelsida1.html" class="dropdown-link">Syntax</a>
+                    <a href="cssExempelsida.html" class="dropdown-link" id="linklast">Selektorer</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        OM OSS
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="" class="dropbtn">
+                        VIDEOS
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <article class="article">
+        <div class="article-container">
+            <div class="left-article">
+                <h1>CSS</h1>
+                <a href="cssInformation.html" class="links ">CSS Information</a>
+                <a href="cssIntroduction.html" class="links homelink">CSS Introduktion</a>
+                <a href="cssExempelsida1.html" class="links">CSS Syntax</a>
+                <a href="cssExempelsida.html" class="links">CSS Selektorer</a>
+            </div>
+            <div class="main-article">
+                <h1 class="main-article-header">CSS INTRODUKTION</h1>
+                
+                <div class="button-container">
+                    <a href="cssInformation.html"><button class="next-button"> &#8592; Tillbaka</button></a>
+                    <a href="cssExempelsida1.html"><button class="next-button">Nästa &#8594; </button></a>
+                </div>
+
+                <div class="first-paragraph css-introduction">
+                    <h2>Vad är CSS?</h2> <br>
+                    <li>CSS står för Cascading Style Sheets.</li>
+                    <li>CSS beskriver hur HTML element ska visas.</li>
+                    <li>Med hjälp av CSS så sparar du massa tid. En CSS fil kan kontrollera flera hemsidor samtidigt.</li>
+                </div>
+
+                <div class="software-information">
+                    <h2 class="programvara">Hur kan ett simpelt CSS dokument se ut?</h2>
+                    <h2 class="program-text">Exempel på hur det kan se ut:</h2>
+                    <div class="html-exempel">
+                        <ul class="exempel-list">
+                            <li class="exempel-text" style="color: brown;">body <span style="color: black;">{</span></li>
+                            <li class="exempel-text" style="padding-left: 20px; color: red;">background-color<span style=color:black;>:</span><span style="color: blue;"> lightblue</span><span style="color: black;">;</span><span style="padding-left: 100px; color: green;">//Ger dokumentets kropp bakgrundsfärgen ljusblå</span></li>
+                            <li class="exempel-text">}</li><br>
+
+                            <li class="exempel-text" style="color: brown;">h1 <span style="color: black;">{</span></li>
+                            <li class="exempel-text" style="padding-left: 20px; color: red;">color<span style=color:black;>:</span><span style="color: blue;"> orange</span><span style="color: black;">;</span><span style="padding-left: 196px; color: green;">//Ger h-taggen färgen orange på texten</span></li>
+                            <li class="exempel-text" style="padding-left: 20px; color: red;">text-align<span style=color:black;>:</span><span style="color: blue;"> center</span><span style="color: black;">;</span><span style="padding-left: 175px; color: green;">//Placerar h-taggen i centrum på hemsidan</span></li>
+                            <li class="exempel-text">}</li><br>
+                            
+                            <li class="exempel-text" style="color: brown;">p <span style="color: black;">{</span></li>
+                            <li class="exempel-text" style="padding-left: 20px; color: red;">font-family<span style=color:black;>:</span><span style="color: blue;"> verdana</span><span style="color: black;">;</span><span style="padding-left: 150px; color: green;">//Ger p-taggen textstilen "verdana"</span></li>
+                            <li class="exempel-text" style="padding-left: 20px; color: red;">font-size<span style=color:black;>:</span><span style="color: blue;"> 16px</span><span style="color: black;">;</span><span style="padding-left: 182px; color: green;">//Ger p-taggen en textstorlek på 16px </span></li>
+                            <li class="exempel-text">}</li><br>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-article">
+                    <a class="smartCodeLink" href="https://www.youtube.com/channel/UCgWF-ljs8fXb8_BrGB2mGWw">
+                        <img class="smartCodeIMG"src="resources/SmartCode.jpg" alt="">
+                        <h2 class="smartCodeHeader">#SmartCode</h2>
+                    </a>
+            </div>
+        </div>
+    </article>
+
+    <footer class="main-footer">
+        <div class="copyright">
+            ©SimpelWeb, 2021. Detta företag är ett registrerat varumärke som tillhör SimpelSites AB. Alla likheter med befintliga webbsidor är av ren slump.
+        </div>
+        <div class="contact">
+            Maila oss via: simplewebb@gmail.com
+        </div>
+    </footer>
+    
+</body>
+</html>
