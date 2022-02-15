@@ -23,8 +23,10 @@
     max-height: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding-top: 5px;
+    transition: all 0.5s;
 }
+
 .dropbtn{
     padding: 10px 35px 10px 35px;
     background-color: rgb(182, 147, 134);
@@ -33,7 +35,8 @@
     color: black;
     border-radius: 5px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Jost', sans-serif;
+    transition: all 0.5s;
 }
 .dropdown{
     position: relative; 
@@ -68,15 +71,16 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    transition: all 0.5s;
 }
 .dropdown-content a:hover{
-    background-color: orange;
+    background-color: rgb(247, 180, 64);
 }
 .dropdown-content2 a:hover{
-    background-color: orange;
+    background-color: rgb(247, 180, 64);
 }
 #linklast:hover{
-    background-color: orange;
+    background-color: rgb(247, 180, 64);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -84,7 +88,11 @@
 .dropdown:hover .dropdown-content2{ display:block;}
 
 .dropdown:hover .dropbtn {
-    background-color: orange;
+    background-color: rgb(130, 105, 96);
+
+}
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .article{
@@ -144,13 +152,14 @@ h1, p{
     font-size: 20px;
     border-radius: 40px;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Jost', sans-serif;
+    transition: all 0.3s;
 }
 .btnIntroduction a{
     text-decoration: none;
     color: black;
 }
 .btnIntroduction:hover{
-    background-color: orange;
+    background-color: rgb(247, 180, 64);
     cursor: pointer;
 }
